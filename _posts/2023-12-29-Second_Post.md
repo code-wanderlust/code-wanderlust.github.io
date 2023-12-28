@@ -1,6 +1,6 @@
 ---
 title: Second Post
-date: 2023-12-29 02:05:30 +0900
+date: 2023-12-29 02:12:30 +0900
 categories: [Machine Learning, Deep Learning]
 tags: [this_tag]     # TAG names should always be lowercase
 ---
