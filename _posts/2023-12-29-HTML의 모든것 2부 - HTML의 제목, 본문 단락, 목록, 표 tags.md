@@ -10,7 +10,7 @@ published: true
 > 이어서 본 포스팅에서는 제목, 글, 표, 목록과 관련된 내용에 대해 다루어 보려고 한다.록
 > 지루한 내용이라고 생각할 수 있겠으나, 기본이 되는 중요한 내용이라고 생각한다. 
 
-## 1. HTML 글제목 태그
+## 1. HTML 글제목 tag
 글의 제목을 나타내는 html tag들은 ```<h1></h1>```, ```<h2></h2>```, ```<h3></h3>```와 같은 tag를 이용합니다. 
 여기서 ```h```는 heading의 약자를 나타내고 뒤에 붙은 숫자가 작으면 상위 제목이고, 커지면 하위 제목을 나타낸다. 
 예제 html는 아래와 같습니다. 
@@ -34,8 +34,8 @@ published: true
 
 ```h tag```는 google SEO와도 밀접한 관계가 있는 tag로, 해당 tag를 잘 사용하면 문서가 정리가 잘되어 있다는 느낌을 받습니다. 
 
-## 2. HTML 본문단락 태그
-본문의 단략을 나타내는 태그는 ```p tag```를 이용하며, ```<p></p>```와 같이 사용할 수 있습니다. 
+## 2. HTML 본문단락 tag
+본문의 단략을 나타내는 tag는 ```p tag```를 이용하며, ```<p></p>```와 같이 사용할 수 있습니다. 
 여기서 ```p```는 paragraph를 나타냅니다. 
 ```p tag```는 tag가 시작하기 전/후로 행의 간격을 살짝 벌려준다는 특징이 있다. 
 다음은 ```p tag```를 이용해본 예시 이다. 
@@ -54,7 +54,7 @@ published: true
 </html>
 ```
 
-해당 태그를 사용할때 유의해야할 점이 있다. 그것은 바로 해당 태그안에서는 <kbd>space</kbd>를 여러변 쳐서 간격을 늘리거나 <kbd>enter</kbd>키가 무시된다는 점 이다. 
+해당 tag를 사용할때 유의해야할 점이 있다. 그것은 바로 해당 tag안에서는 <kbd>space</kbd>를 여러변 쳐서 간격을 늘리거나 <kbd>enter</kbd>키가 무시된다는 점 이다. 
 가령 아래의 html 문서는 위의 html 문서와 동일하게 web browser에 나타내진다. 
 
 ```html
@@ -99,9 +99,9 @@ Character entity는 ```nbsp```외에도 많이 있는데, 키보드상에 없는
 Character entity에는 정말 많은 종류가 있는데, 따로 cheat sheet같은 것을 통해 참조해가면서 쓰면 됩니다. 
 가령 다음과 같은 [cheat sheet](https://www.htmlquick.com/reference/character-entity-reference.html)들을 참조하면 되겠습니다. 
 
-마지막으로, <kbd>enter</kbd>키를 사용하는 방법은 character entity가 아닌, 특수한 tag가 있는데 ```<br>```태그를 사용합니다. 
-```<br>``` 태그는 break를 나타내며, 끝 tag가 없는것이 특징 입니다. 
-이와 같이, 끝 tag가 없는것은 안쪽에 적어둘 내용이 없기때문에, 특별히 *empty tag*라 부릅니다. 
+마지막으로, <kbd>enter</kbd>키를 사용하는 방법은 character entity가 아닌, 특수한 tag가 있는데 ```<br>```tag를 사용합니다. 
+```<br>``` tag는 break를 나타내며, end tag가 없는것이 특징 입니다. 
+이와 같이, end tag가 없는것은 안쪽에 적어둘 내용이 없기때문에, 특별히 *empty tag*라 부릅니다. 
 그럼, 마지막으로 ```<br>```를 적용해보면 아래와 같습니다. 
 
 ```html
@@ -120,9 +120,9 @@ Character entity에는 정말 많은 종류가 있는데, 따로 cheat sheet같�
 
 
 
-## 3. HTML 목록 태그 (List Tag)
-목록 태그에는 숫자가 있는 순서가 있는 목록과 단순 symbol이 붙는 순서가 없는 목록으로 나누어 집니다. 
-여기서 순서가 있는 목록은 ```<ol></ol>```태그를 이용하며 ordered list의 약자입니다. 
+## 3. HTML 목록 tag (List Tag)
+목록 tag에는 숫자가 있는 순서가 있는 목록과 단순 symbol이 붙는 순서가 없는 목록으로 나누어 집니다. 
+여기서 순서가 있는 목록은 ```<ol></ol>```tag를 이용하며 ordered list의 약자입니다. 
 순서가 없는 목록은 ```<ul></ul>```로 표시하며, unordered list의 약자입니다. 
 목록의 각 항목들은 list item의 약자로 ```<li></li>```로 표시합니다. 
 이는 ```<ol></ol>```, ```<ul></ul>``` 상관없이 사용할 수 있습니다. 
@@ -148,9 +148,9 @@ Character entity에는 정말 많은 종류가 있는데, 따로 cheat sheet같�
     </body>
 </html>
 ```
-목록 태그는 어떤 글에서 순서들을 나타낼때도 쓸 수 있지만, layout의 navigation 항목들을 나타낼때도 쓸 수 있습니다. 
+목록 tag는 어떤 글에서 순서들을 나타낼때도 쓸 수 있지만, layout의 navigation 항목들을 나타낼때도 쓸 수 있습니다. 
 
-## 4. HTML 표 태그 (Table Tag)
+## 4. HTML 표 tag (Table Tag)
 표는 행과 열로 표시되는 것으로, 표를 만들고 싶으면 ```<table> </table>```이라는 tag를 이용합니다. 
 ```<table> </table>``` tag를 선언한 후, 그 내부에 행(row)을 선언하는데, table row의 약자인 ```<tr></tr>```을 선언합니다. 
 그리고, 각 행의 cell을 나누기 위해서 (혹은 렬(column)을 선언하기 위해), ```<th></th>```와 ```<td></td>```를 이용합니다. 
@@ -264,7 +264,7 @@ Character entity에는 정말 많은 종류가 있는데, 따로 cheat sheet같�
 추가로, 두개의 row에서 특정부분을 합치는 방법 ```rowspan```이라는 attribute를 사용하면 됩니다. 
 만약 두개의 row를 합치고 싶다면, ```rowspan```의 attribute의 값으로 ```"2"```를 설정해주면 됩니다. 
 아래는 row span의 예시 입니다. 
-아래 예시에서 ```rowspan``` attribute를 선언한 row를 기준으로, 그 아래의 row의 ```<th></th>```태그는 삭제되어 있는 것을 알 수 있습니다. 
+아래 예시에서 ```rowspan``` attribute를 선언한 row를 기준으로, 그 아래의 row의 ```<th></th>```tag는 삭제되어 있는 것을 알 수 있습니다. 
 
 ```html
 <!DOCTYPE html>
@@ -304,7 +304,7 @@ Character entity에는 정말 많은 종류가 있는데, 따로 cheat sheet같�
 
 > HTML 시리즈
 > 1. [HTML의 모든것 1부 - HTML이란 무엇인가](https://code-wanderlust.github.io/posts/HTML의-모든것-1부-HTML이란-무엇인가/)
-> 2. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 태그들](https://code-wanderlust.github.io/posts/HTML의-모든것-2부-HTML-내용-tags/)
+> 2. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 tags](https://code-wanderlust.github.io/posts/HTML의-모든것-2부-HTML-내용-tags/)
 > 3. [HTML의 모든것 3부 - HTML의 Media (이미지, 오디오, 비디오) tags](https://code-wanderlust.github.io/posts/HTML의-모든것-3부-HTML의-Media-(이미지,-오디오,-비디오)-tags/)
 > 4. [HTML의 모든것 4부 - HTML의 하이퍼링크, 입력 tags](https://code-wanderlust.github.io/posts/HTML의-모든것-4부-HTML의-하이퍼링크,-입력-tags/)
 > 5. [HTML의 모든것 5부 - HTML의 구조적 정보와 tags, 그리고 head tags](https://code-wanderlust.github.io/posts/HTML의-모든것-5부-HTML의-구조적-정보와-tags,-그리고-head-tags/)

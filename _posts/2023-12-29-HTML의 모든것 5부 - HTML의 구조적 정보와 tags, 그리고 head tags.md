@@ -12,8 +12,8 @@ published: true
 ## 1. HTML 영역분할
 ### 1-1. \<div\>와 \<span\> tag
 영역분할에는 ```<div></div>```와 ```<span></span>```tag가 있습니다. 
-```<div></div>```는 division의 약자로 여러 element들을 다른 element들과 구분시켜주는 태그 입니다. 
-해당 태그를 적용하면, 시각적으로는 큰 변화가 없지만, 추후 ```css```등을 통해 html에 스타일을 할당시킬때 ```<div></div>```에 따라 다르게 부여해 줄 수 있다. 
+```<div></div>```는 division의 약자로 여러 element들을 다른 element들과 구분시켜주는 tag 입니다. 
+해당 tag를 적용하면, 시각적으로는 큰 변화가 없지만, 추후 ```css```등을 통해 html에 스타일을 할당시킬때 ```<div></div>```에 따라 다르게 부여해 줄 수 있다. 
 즉, web page의 구조를 디자인할때 필요로 하는 tag이다. 
 ```<span></span>```는 특정 text를 구분할때 사용하는 tag이다. 
 역시 해당 tag를 부여하여도, 특별한 변화는 없지만, 스타일을 부여할때 사용된다. 
@@ -105,15 +105,13 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
 
 
 1. ```<title></title>``` : Web browser의 tab에 띄울 제목을 작성할 수 있습니다. 
-2. ```<style></style>``` : Web page의 style과 관련된 tag로 ```css```와 밀접한 관계가 있습니다. 해당 tag를 이용하면, 아래와 같이 스타일을 직접 적어줄 수도 있습니다. 아래의 내용은 ```<head></head>```태그안에 넣어두면 된다. 
-
+2. ```<style></style>``` : Web page의 style과 관련된 tag로 ```css```와 밀접한 관계가 있습니다. 해당 tag를 이용하면, 아래와 같이 스타일을 직접 적어줄 수도 있습니다. 아래의 내용은 ```<head></head>```tag안에 넣어두면 된다. 
 ```html
 <style>
     h1 {color: blue;}
     p {color: red;}
 </style>
 ```
-
 3. ```<link>``` : 필요한 파일들을 연결시켜주는 tag로, ```css```파일을 불러올때나, 아이콘등을 볼러올 수 있습니다. 불러올 파일을 어떠한 용도로 사용할지는 relation의 약자로 ```rel```이라는 attribute를 이용하여 정해줘야 합니다. 
 ```html
 <head>
@@ -121,7 +119,6 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
     <link rel="icon", href="somewhere/icon_path/icon.jpg">
 </head>
 ```
-
 4. ```<script></script>``` : 해당 tag에서 ```Javascript```code를 작성할 수 있습니다. 만약, 따로 ```Javascript```코드가 ```.js``` 파일로 저장되어 있다면, ```<script src="somewhere/javascript_code.code.js"></script>```을 이용하여 해당 파일을 불러와서 사용할 수 있다. 
 ```html
 <head>
@@ -132,7 +129,6 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
     </script>
 </head>
 ```
-
 5. ```<meta>``` : Web page에 대한 여러가지 설명을 적어둘 수 있습니다. 가령 ```name``` attribute를 선언하고, 해당하는 값으로 ```"description"```, ```"keywords"```, ```"author"```등을 지정할 수 있습니다. 이러한 정보는 사용자가 이용하는 것은 아니고, web browser나, 여러 검색엔진들이 참고하여 활용할 수 있는 요소들 입니다. 
 ```html
 <head>
@@ -141,7 +137,6 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
     <meta name="author" content="Someone">
 </head>
 ```
-
 6. ```<base>``` : 경로에 대한 기준을 정해두는 tag입니다. 만약 기준 경로를 ```assests/```로 정하였다면, ```<body></body>```안에 있는 모든 경로들은 ```assets/```아래에 있는 경로들을 기준으로 하여 결정되게 됩니다. 또한 ```target``` attribute도 설정 가능하기 때문에, ```<body></body>```안에 있는 모든 곳에 적용시킬 수 있습니다. Tag는 ```<base href="images/" target="_blank"> ``` 과 같이 작성하면 된다. 
 
 
@@ -163,13 +158,13 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
     - ```<sup></sup>``` 윗첨자 <sup>텍스트를 입력할</sup> 수 있게 해줍니다. 
     - ```<code></code>``` <code>Code관련 글씨체로</code> 바꿔줍니다. 
     - ```<kbd></kbd>``` <kbd>키보드 글씨체로</kbd> 바꿔줍니다. 
-5. ```<p>```tag에서 character entity를 사용해야 <kbd>enter</kbd>, <kbd>space</kbd>가 먹혔었는데, preformatted의 약자인 ```<pre></pre>```테그를 사용하면, 문제를 해결할 수 있습니다. 
+5. ```<p>```tag에서 character entity를 사용해야 <kbd>enter</kbd>, <kbd>space</kbd>가 먹혔었는데, preformatted의 약자인 ```<pre></pre>```tag를 사용하면, 문제를 해결할 수 있습니다. 
 
 
 
 > HTML 시리즈
 > 1. [HTML의 모든것 1부 - HTML이란 무엇인가](https://code-wanderlust.github.io/posts/HTML의-모든것-1부-HTML이란-무엇인가/)
-> 2. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 태그들](https://code-wanderlust.github.io/posts/HTML의-모든것-2부-HTML-내용-tags/)
+> 2. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 tags](https://code-wanderlust.github.io/posts/HTML의-모든것-2부-HTML-내용-tags/)
 > 3. [HTML의 모든것 3부 - HTML의 Media (이미지, 오디오, 비디오) tags](https://code-wanderlust.github.io/posts/HTML의-모든것-3부-HTML의-Media-(이미지,-오디오,-비디오)-tags/)
 > 4. [HTML의 모든것 4부 - HTML의 하이퍼링크, 입력 tags](https://code-wanderlust.github.io/posts/HTML의-모든것-4부-HTML의-하이퍼링크,-입력-tags/)
 > 5. [HTML의 모든것 5부 - HTML의 구조적 정보와 tags, 그리고 head tags](https://code-wanderlust.github.io/posts/HTML의-모든것-5부-HTML의-구조적-정보와-tags,-그리고-head-tags/)

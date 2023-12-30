@@ -9,8 +9,8 @@ published: true
 > 본 포스팅에서는 하이퍼링크를 넣는 방법과, 입력 양식에 대해 알아보려고 한다. 
 
 
-## 1. HTML 하이퍼링크 태그
-하이퍼링크 태그는 ```<a></a>```를 이용하며, 해당 태그를 쓰면, 링크에 따라 다른 web page로 이동이 가능해집니다. 
+## 1. HTML 하이퍼링크 tag
+하이퍼링크 tag는 ```<a></a>```를 이용하며, 해당 tag를 쓰면, 링크에 따라 다른 web page로 이동이 가능해집니다. 
 링크는 ```href``` attribute를 이용합니다. 
 아래는 예시 코드 입니다. 
 
@@ -61,19 +61,19 @@ Web page에서 새로운 창을 띄워서 링크로 가고 싶으면, ```target`
 </html>
 ```
 
-## 2.HTML 입력양식 태그 (Form tag)
+## 2.HTML 입력양식 tag (Form tag)
 입력양식 (Form tag)는 web page에서 다양한 정보를 입력해야할때 사용하는 tag 입니다. 
 주요 tag로는 ```<input>```, ```<select></select>```, ```<textarea></textarea>```, ```<fieldset></fieldset>```, ```<legend></legend>```가 있습니다. 
 
-```<input>```태그는 ```type```속성을 이용하여, 어떤 type의 입력인지 지정해 주어야 합니다. 
+```<input>```tag는 ```type```속성을 이용하여, 어떤 type의 입력인지 지정해 주어야 합니다. 
 주요 입력 type으로는 ```"text"```, ```"radio"```, ```"checkbox"```, ```"submit"```, ```"reset"```등등의 다양한 type이 있습니다. 
-또한, ```<input>```태그는 ```name```이라는 속성에 고유한 이름을 만들어줘야 합니다. 
+또한, ```<input>```tag는 ```name```이라는 속성에 고유한 이름을 만들어줘야 합니다. 
 그래야 어디서 받아온 데이터인지 구분할 수 있습니다. 
 
-```<select></select>```태그를 지정하면, 콤보박스를 만들어서 ```<option></option>```태그로 지정된 요소들을 선택할 수 있게 해줍니다. 
-```<textarea></textarea>```태그를 사용하면, multi-line text box를 만들 수 있게되며, 문자열을 입력으로 받을 수 있게 해줍니다. 
+```<select></select>```tag를 지정하면, 콤보박스를 만들어서 ```<option></option>```tag로 지정된 요소들을 선택할 수 있게 해줍니다. 
+```<textarea></textarea>```tag를 사용하면, multi-line text box를 만들 수 있게되며, 문자열을 입력으로 받을 수 있게 해줍니다. 
 ```<fieldset></fieldset>```이나 ```<legend></legend>```를 이용하면, 여러 element들을 보기 좋게 묶어줄 수 있습니다. 
-아래는 위의 태그들을 이용하여 작성한 예시 입니다. 
+아래는 위의 tag들을 이용하여 작성한 예시 입니다. 
 
 ```html
 <!DOCTYPE html>
@@ -108,7 +108,7 @@ Web page에서 새로운 창을 띄워서 링크로 가고 싶으면, ```target`
 
 위의 html을 이용하여 입력을 받으면, 어디론가 전달이 되어 처리가 진행이 될텐데, 그 부분을 우리는 *backend*이라 부릅니다. 
 보통 backend는 ```php```, ```ASP```, ```Java```, ```Python```, ```Ruby```, ```Node.js```등과 같은 server측에서 사용하는 programing language를 이용하여 만들어 집니다. 
-만약, 입력을 backend의 어딘가로 보내기 위해서는 ```<form></form>``` 태그에 ```action``` attribute를 이용하여 소스코드의 위치를 알려줍니다. 
+만약, 입력을 backend의 어딘가로 보내기 위해서는 ```<form></form>``` tag에 ```action``` attribute를 이용하여 소스코드의 위치를 알려줍니다. 
 또한 정보를 보내는 방식도 알려줘야 하는데, ```"get"```방식과 ```"post"```로 나누어 지는데, 이를 ```method```라는 attribute를 통해 지정해 줄 수 있습니다. 
 만약 지정해주지 않으면, default로 ```"get"```방식을 이용해 줍니다. 
 두 방식의 특징은 다음과 같습니다. 
@@ -206,7 +206,7 @@ Web page에서 새로운 창을 띄워서 링크로 가고 싶으면, ```target`
 
 > HTML 시리즈
 > 1. [HTML의 모든것 1부 - HTML이란 무엇인가](https://code-wanderlust.github.io/posts/HTML의-모든것-1부-HTML이란-무엇인가/)
-> 2. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 태그들](https://code-wanderlust.github.io/posts/HTML의-모든것-2부-HTML-내용-tags/)
+> 2. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 tags](https://code-wanderlust.github.io/posts/HTML의-모든것-2부-HTML-내용-tags/)
 > 3. [HTML의 모든것 3부 - HTML의 Media (이미지, 오디오, 비디오) tags](https://code-wanderlust.github.io/posts/HTML의-모든것-3부-HTML의-Media-(이미지,-오디오,-비디오)-tags/)
 > 4. [HTML의 모든것 4부 - HTML의 하이퍼링크, 입력 tags](https://code-wanderlust.github.io/posts/HTML의-모든것-4부-HTML의-하이퍼링크,-입력-tags/)
 > 5. [HTML의 모든것 5부 - HTML의 구조적 정보와 tags, 그리고 head tags](https://code-wanderlust.github.io/posts/HTML의-모든것-5부-HTML의-구조적-정보와-tags,-그리고-head-tags/)
