@@ -6,7 +6,7 @@ tags: [web, html, frontend]     # TAG names should always be lowercase
 published: true
 ---
 
-> [HTML 1부]()에서 HTML이 어떤것인지 알아보았다. 
+> [HTML 1부](#)에서 HTML이 어떤것인지 알아보았다. 
 > 이어서 본 포스팅에서는 제목, 글, 표, 목록과 관련된 내용에 대해 다루어 보려고 한다.록
 > 지루한 내용이라고 생각할 수 있겠으나, 기본이 되는 중요한 내용이라고 생각한다. 
 

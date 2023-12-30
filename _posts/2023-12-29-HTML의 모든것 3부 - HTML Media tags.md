@@ -6,7 +6,7 @@ tags: [web, html, frontend]     # TAG names should always be lowercase
 published: true
 ---
 
-> [HTML 2부]()에 이어서, 본 포스팅에서는 Media들을 html에서는 어떻게 다룰 수 있는지 알아보려고 한다. 
+> [HTML 2부](#)에 이어서, 본 포스팅에서는 Media들을 html에서는 어떻게 다룰 수 있는지 알아보려고 한다. 
 
 ## 1. HTML 이미지 태그
 그림 태그를 이용하면, web page에 그림을 넣어줄 수 있다. ```<img>```라는 태그를 사용하며, empty tag로 끝태그가 필요가 없습니다. 
