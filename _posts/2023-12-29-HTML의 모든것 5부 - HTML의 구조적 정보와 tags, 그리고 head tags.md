@@ -106,6 +106,7 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
 
 1. ```<title></title>``` : Web browser의 tab에 띄울 제목을 작성할 수 있습니다. 
 2. ```<style></style>``` : Web page의 style과 관련된 tag로 ```css```와 밀접한 관계가 있습니다. 해당 tag를 이용하면, 아래와 같이 스타일을 직접 적어줄 수도 있습니다. 아래의 내용은 ```<head></head>```태그안에 넣어두면 된다. 
+
 ```
 <style>
     h1 {color: blue;}
