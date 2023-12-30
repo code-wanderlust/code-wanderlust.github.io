@@ -113,7 +113,8 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/"
+urlimg: 'https://code-wanderlust.github.io/docs/assests/images/'
 
 # ------------ The following options are not recommended to be modified ------------------
 
