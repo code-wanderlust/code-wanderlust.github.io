@@ -123,12 +123,12 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
 </head>
 ```
 
-4. ```<script></script>``` : 해당 tag에서 ```Javascript```code를 작성할 수 있습니다. 만약, 따로 ```Javascript```코드가 ```.js``` 파일로 저장되어 있다면, ```<script src="somewhere/javascript_code.code.js"></script>``` 해당 파일을 불러와서 사용할 수 있다. 
+4. ```<script></script>``` : 해당 tag에서 ```Javascript```code를 작성할 수 있습니다. 만약, 따로 ```Javascript```코드가 ```.js``` 파일로 저장되어 있다면, ```<script src="somewhere/javascript_code.code.js"></script>```을 이용하여 해당 파일을 불러와서 사용할 수 있다. 
 ```html
 <head>
     <script>
         function Myfunction(){
-            document.getElementById("greeting").innerHTML = "Hello World";
+            // Something Here.
         }
     </script>
 </head>
