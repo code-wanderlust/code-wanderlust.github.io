@@ -20,30 +20,30 @@ published: true
 아래는 예시 html 입니다. 
 
 ```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My website</title>
-    </head>
-    <body>
-        <div>
-        <ol>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol>
-        <ul>
-            <li>Apple</li>
-            <li>Banana</li>
-            <li>Melon</li>
-        </ul>
-        </div>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>My website</title>
+        </head>
+        <body>
+            <div>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Melon</li>
+            </ul>
+            </div>
 
-        <h1>1. h1 제목</h1>
-        <p>안녕하세요? <span>저의</span> 홈페이지에 와주셔서 감사합니다. </p>
-        <p>오늘도 좋은 하루 보내셔요.</p>
-    </body>
-</html>
+            <h1>1. h1 제목</h1>
+            <p>안녕하세요? <span>저의</span> 홈페이지에 와주셔서 감사합니다. </p>
+            <p>오늘도 좋은 하루 보내셔요.</p>
+        </body>
+    </html>
 ```
 
 ### 1-2. Block과 Inline 형식.
@@ -58,19 +58,19 @@ published: true
 처음 소개하였듯이, web page는 layout이 어느정도 정해져 있는데, 보통 각 영역을 ```<div></div>```tag를 이용합니다. 
 
 ```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My website</title>
-    </head>
-    <body>
-        <div>Header Area</div>
-        <div>Navigation Area</div>
-        <div>Sidebar Area</div>
-        <div>Main Area</div>
-        <div>Footer Area</div>
-    </body>
-</html>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>My website</title>
+        </head>
+        <body>
+            <div>Header Area</div>
+            <div>Navigation Area</div>
+            <div>Sidebar Area</div>
+            <div>Main Area</div>
+            <div>Footer Area</div>
+        </body>
+    </html>
 ```
 
 물론, 각 영역을 구분하기 위해서는 ```id```와 같은 attribute를 이용하여 구분을 해줘야 합니다. 
@@ -78,19 +78,19 @@ published: true
 그 내용은 아래와 같습니다. 
 
 ```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My website</title>
-    </head>
-    <body>
-        <header>Header Area</header>
-        <nav>Navigation Area</nav>
-        <aside>Sidebar Area</aside>
-        <main>Main Area</main>
-        <footer>Footer Area</footer>
-    </body>
-</html>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>My website</title>
+        </head>
+        <body>
+            <header>Header Area</header>
+            <nav>Navigation Area</nav>
+            <aside>Sidebar Area</aside>
+            <main>Main Area</main>
+            <footer>Footer Area</footer>
+        </body>
+    </html>
 ```
 
 ```<header></header>```, ```<nav></nav>```, ```<aside></aside>```, ```<main></main>```, ```<footer></footer>``` tag을 통해 구분을 할 수 있습니다. 
@@ -107,35 +107,37 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
 1. ```<title></title>``` : Web browser의 tab에 띄울 제목을 작성할 수 있습니다. 
 2. ```<style></style>``` : Web page의 style과 관련된 tag로 ```css```와 밀접한 관계가 있습니다. 해당 tag를 이용하면, 아래와 같이 스타일을 직접 적어줄 수도 있습니다. 아래의 내용은 ```<head></head>```tag안에 넣어두면 된다. 
 ```html
-<style>
-    h1 {color: blue;}
-    p {color: red;}
-</style>
+    <html>
+        <style>
+            h1 {color: blue;}
+            p {color: red;}
+        </style>
+    </html>
 ```
 3. ```<link>``` : 필요한 파일들을 연결시켜주는 tag로, ```css```파일을 불러올때나, 아이콘등을 볼러올 수 있습니다. 불러올 파일을 어떠한 용도로 사용할지는 relation의 약자로 ```rel```이라는 attribute를 이용하여 정해줘야 합니다. 
 ```html
-<head>
-    <link rel="stylesheet", href="somewhere/css_path/style.css">
-    <link rel="icon", href="somewhere/icon_path/icon.jpg">
-</head>
+    <head>
+        <link rel="stylesheet", href="somewhere/css_path/style.css">
+        <link rel="icon", href="somewhere/icon_path/icon.jpg">
+    </head>
 ```
 4. ```<script></script>``` : 해당 tag에서 ```Javascript```code를 작성할 수 있습니다. 만약, 따로 ```Javascript```코드가 ```.js``` 파일로 저장되어 있다면, ```<script src="somewhere/javascript_code.code.js"></script>```을 이용하여 해당 파일을 불러와서 사용할 수 있다. 
 ```html
-<head>
-    <script>
-        function Myfunction(){
-            // Something Here.
-        }
-    </script>
-</head>
+    <head>
+        <script>
+            function Myfunction(){
+                // Something Here.
+            }
+        </script>
+    </head>
 ```
 5. ```<meta>``` : Web page에 대한 여러가지 설명을 적어둘 수 있습니다. 가령 ```name``` attribute를 선언하고, 해당하는 값으로 ```"description"```, ```"keywords"```, ```"author"```등을 지정할 수 있습니다. 이러한 정보는 사용자가 이용하는 것은 아니고, web browser나, 여러 검색엔진들이 참고하여 활용할 수 있는 요소들 입니다. 
 ```html
-<head>
-    <meta name="description" content="테스트 페이지 입니다.">
-    <meta name="keywords" content="테스트, 연습, html">
-    <meta name="author" content="Someone">
-</head>
+    <head>
+        <meta name="description" content="테스트 페이지 입니다.">
+        <meta name="keywords" content="테스트, 연습, html">
+        <meta name="author" content="Someone">
+    </head>
 ```
 6. ```<base>``` : 경로에 대한 기준을 정해두는 tag입니다. 만약 기준 경로를 ```assests/```로 정하였다면, ```<body></body>```안에 있는 모든 경로들은 ```assets/```아래에 있는 경로들을 기준으로 하여 결정되게 됩니다. 또한 ```target``` attribute도 설정 가능하기 때문에, ```<body></body>```안에 있는 모든 곳에 적용시킬 수 있습니다. Tag는 ```<base href="images/" target="_blank"> ``` 과 같이 작성하면 된다. 
 

@@ -173,34 +173,34 @@ Web page에서 새로운 창을 띄워서 링크로 가고 싶으면, ```target`
 아래는 예시 코드 입니다. 
 
 ```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My website</title>
-    </head>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>My website</title>
+        </head>
 
-    <body>
-        <form action="process.py">
-            <input type="text" name="input1"><br>
-            <input type="password" name="password"><br>
-            <input type="radio" name="gender", value="male", checked>남<br>
-            <input type="radio" name="gender", value="female", checked>여<br>
-            <input type="checkbox" name="computer" checked>컴퓨터<br>
-            <input type="checkbox" name="smartphone">스마트폰<br>
-            <input type="file" name="file"><br>
-            <input type="email" name="email"><br>
-            <input type="url" name="url"><br>
-            <input type="color" name="color"><br>
-            <input type="date" name="date"><br>
-            <input type="time" name="time"><br>
-            <input type="month" name="month"><br>
-            <input type="number" name="number" min="-3" max="10"><br>
-            <input type="button" onclick="alert('Yo!')" value="Click"><br>
-            <input type="submit">
-            <input type="reset">
-        </form>
-    </body>
-</html>
+        <body>
+            <form action="process.py">
+                <input type="text" name="input1"><br>
+                <input type="password" name="password"><br>
+                <input type="radio" name="gender", value="male", checked>남<br>
+                <input type="radio" name="gender", value="female", checked>여<br>
+                <input type="checkbox" name="computer" checked>컴퓨터<br>
+                <input type="checkbox" name="smartphone">스마트폰<br>
+                <input type="file" name="file"><br>
+                <input type="email" name="email"><br>
+                <input type="url" name="url"><br>
+                <input type="color" name="color"><br>
+                <input type="date" name="date"><br>
+                <input type="time" name="time"><br>
+                <input type="month" name="month"><br>
+                <input type="number" name="number" min="-3" max="10"><br>
+                <input type="button" onclick="alert('Yo!')" value="Click"><br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </body>
+    </html>
 ```
 
 
