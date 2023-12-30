@@ -50,7 +50,7 @@ future: true
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-2BJVCW2DQT # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
