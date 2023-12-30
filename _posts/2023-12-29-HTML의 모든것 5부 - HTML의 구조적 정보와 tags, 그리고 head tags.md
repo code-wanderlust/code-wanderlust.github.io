@@ -105,14 +105,12 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
 
 
 1. ```<title></title>``` : Web browser의 tab에 띄울 제목을 작성할 수 있습니다. 
-2. ```<style></style>``` : Web page의 style과 관련된 tag로 ```css```와 밀접한 관계가 있습니다. 해당 tag를 이용하면, 아래와 같이 스타일을 직접 적어줄 수도 있습니다. 
+2. ```<style></style>``` : Web page의 style과 관련된 tag로 ```css```와 밀접한 관계가 있습니다. 해당 tag를 이용하면, 아래와 같이 스타일을 직접 적어줄 수도 있습니다. 아래의 내용은 ```<head></head>```태그안에 넣어두면 된다. 
 ```html
-<head>
-    <style>
-        h1 {color: blue;}
-        p {color: red;}
-    </style>
-</head>
+<style>
+    h1 {color: blue;}
+    p {color: red;}
+</style>
 ```
 
 3. ```<link>``` : 필요한 파일들을 연결시켜주는 tag로, ```css```파일을 불러올때나, 아이콘등을 볼러올 수 있습니다. 불러올 파일을 어떠한 용도로 사용할지는 relation의 약자로 ```rel```이라는 attribute를 이용하여 정해줘야 합니다. 
@@ -170,7 +168,7 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
 
 > HTML 시리즈
 > 1. [HTML의 모든것 1부 - HTML이란 무엇인가](https://code-wanderlust.github.io/posts/HTML의-모든것-1부-HTML이란-무엇인가/)
-> 1. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 태그들](https://code-wanderlust.github.io/posts/HTML의-모든것-2부-HTML-내용-tags/)
-> 2. [HTML의 모든것 3부 - HTML의 Media (이미지, 오디오, 비디오) tags](#)
-> 3. [HTML의 모든것 4부 - HTML의 하이퍼링크, 입력 tags](#)
-> 4. [HTML의 모든것 4부 - HTML의 구조적 정보와 tags, 그리고 head tags](#)
+> 2. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 태그들](https://code-wanderlust.github.io/posts/HTML의-모든것-2부-HTML-내용-tags/)
+> 3. [HTML의 모든것 3부 - HTML의 Media (이미지, 오디오, 비디오) tags](https://code-wanderlust.github.io/posts/HTML의-모든것-3부-HTML의-Media-(이미지,-오디오,-비디오)-tags/)
+> 4. [HTML의 모든것 4부 - HTML의 하이퍼링크, 입력 tags](https://code-wanderlust.github.io/posts/HTML의-모든것-4부-HTML의-하이퍼링크,-입력-tags/)
+> 5. [HTML의 모든것 5부 - HTML의 구조적 정보와 tags, 그리고 head tags](https://code-wanderlust.github.io/posts/HTML의-모든것-5부-HTML의-구조적-정보와-tags,-그리고-head-tags/)
