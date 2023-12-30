@@ -143,12 +143,8 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
 </head>
 ```
 
-6. ```<base>``` : 경로에 대한 기준을 정해두는 tag입니다. 만약 기준 경로를 ```assests/```로 정하였다면, ```<body></body>```안에 있는 모든 경로들은 ```assets/```아래에 있는 경로들을 기준으로 하여 결정되게 됩니다. 또한 ```target``` attribute도 설정 가능하기 때문에, ```<body></body>```안에 있는 모든 곳에 적용시킬 수 있습니다. 
-```html
-<head>
-    <base href="images/" target="_blank">
-</head>
-```
+6. ```<base>``` : 경로에 대한 기준을 정해두는 tag입니다. 만약 기준 경로를 ```assests/```로 정하였다면, ```<body></body>```안에 있는 모든 경로들은 ```assets/```아래에 있는 경로들을 기준으로 하여 결정되게 됩니다. 또한 ```target``` attribute도 설정 가능하기 때문에, ```<body></body>```안에 있는 모든 곳에 적용시킬 수 있습니다. Tag는 ```<base href="images/" target="_blank"> ``` 과 같이 작성하면 된다. 
+
 
 ## 3. HTML관련 기타사항
 
