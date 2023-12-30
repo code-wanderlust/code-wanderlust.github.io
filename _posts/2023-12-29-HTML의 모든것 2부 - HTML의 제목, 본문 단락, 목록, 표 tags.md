@@ -1,5 +1,5 @@
 ---
-title: HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 태그들
+title: HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 tags
 date: 2023-12-30 10:32:30 +0900
 categories: [Web, HTML]
 tags: [web, html, frontend]     # TAG names should always be lowercase

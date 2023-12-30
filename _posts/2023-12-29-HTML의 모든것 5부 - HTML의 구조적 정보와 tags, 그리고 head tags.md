@@ -1,5 +1,5 @@
 ---
-title: HTML의 모든것 4부 - HTML의 구조적 정보와 tags, 그리고 head tags
+title: HTML의 모든것 5부 - HTML의 구조적 정보와 tags, 그리고 head tags
 date: 2023-12-30 20:24:30 +0900
 categories: [Web, HTML]
 tags: [web, html, frontend]     # TAG names should always be lowercase
@@ -169,8 +169,8 @@ HTML의 ```<head></head>```부분에는 ```<title></title>```, ```<style></style
 
 
 > HTML 시리즈
-> 1. [HTML의 모든것 1부 - HTML이란 무엇인가](#)
-> 1. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 태그들](#)
+> 1. [HTML의 모든것 1부 - HTML이란 무엇인가](https://code-wanderlust.github.io/posts/HTML의-모든것-1부-HTML이란-무엇인가/)
+> 1. [HTML의 모든것 2부 - HTML의 제목, 본문 단락, 목록, 표 태그들](https://code-wanderlust.github.io/posts/HTML의-모든것-2부-HTML-내용-tags/)
 > 2. [HTML의 모든것 3부 - HTML의 Media (이미지, 오디오, 비디오) tags](#)
 > 3. [HTML의 모든것 4부 - HTML의 하이퍼링크, 입력 tags](#)
 > 4. [HTML의 모든것 4부 - HTML의 구조적 정보와 tags, 그리고 head tags](#)
