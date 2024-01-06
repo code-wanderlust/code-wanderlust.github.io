@@ -3,6 +3,7 @@ title: CSS의 모든 것 1부 - CSS란? 간단한 사용법과 선택자
 date: 2024-01-06 19:54:40 +0900
 categories: [Web, CSS]
 tags: [web, html, frontend]     # TAG names should always be lowercase
+published: true
 ---
 
 > CSS는 HTML에 멋진 스타일을 할당하기 위한 필수적인 요소 입니다. 
