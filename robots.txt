@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Allow: /posts/
 
 Sitemap: https://code-wanderlust.github.io/sitemap.xml
