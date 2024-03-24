@@ -1,8 +1,9 @@
 ---
 title: 쉬운 예시로 알아보는 베이즈 정리 (Bayes Theorem / Bayes Rule) - Posterior, Likelihood, Prior
 date: 2024-03-13 22:34:27 +0900
-categories: [Machine Learning]
+categories: [AI, Machine Learning]
 tags: [machine learning, deep learning]     # TAG names should always be lowercase
+use_math: true
 ---
 
 
