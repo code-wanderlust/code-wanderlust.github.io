@@ -24,7 +24,10 @@ _그림 2. 연어와 농어의 길이에 대한 Probability Mass Function_
 
 단순히, 위의 histogram에서 전체 개수를 나눠주면, probability mass function으로 표현할 수 있습니다. (혹시나 해서 언급드리자면, probability mass function은 probability density function의 discrete 버전입니다.) 여기서 생선의 길이를 "x"라고 표시하겠습니다. (이를 전문용어로 random variable이라고 합니다.) 그러면, 길이 "x"가 결정되면, 연어와 농어일 확률을 다음과 같이 표현할 수 있습니다. 
 
-$$P(w|x)$$
+\\[
+P(w|x)
+\\]
+
 
 좀 더 구체적인 예로, 만약 길이 "x"가 30 이라면... 연어와 농어의 확률 값은...
 
